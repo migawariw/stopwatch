@@ -1,0 +1,38 @@
+html {
+	font-size: 100%;
+	font-family: 'Hiragino Sans', sans-serif;
+	line-height: 1.7;
+	letter-spacing: 1px;
+  }
+h1,h2, h3, h4, h5, h6,th{
+	font-weight: normal;
+}
+h1{
+	border-bottom: 5px solid lightblue;
+	color: grey;
+}
+/* .idpass{
+	width: 100px;
+	height: 20px;
+} */
+button{ 
+	width: 200px;
+	height: 60px;
+	background-color: #1da1f2;
+	color: rgb(251, 249, 249);
+	margin-top: 20px;
+	margin-left:30px;
+	font-size: 25px;
+	border-radius: 10px;
+	box-shadow: 0;
+	cursor: pointer;
+ }
+
+ body{
+	color: rgb(83, 83, 83);
+ }
+ .time{
+	font-size: 100px;
+	text-align: center;
+ }
+
