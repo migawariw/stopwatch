@@ -48,7 +48,7 @@ button{
  /* .contents{
 	width:100%
  } */
-@media(max-width:670px){
+@media (max-width:670px){
 	.time{
 		font-size: 350%;
 		text-align: center;
