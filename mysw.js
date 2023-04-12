@@ -39,7 +39,7 @@ function start() {
 	if ( judge == 0 ) {
 		startTime = new Date().getTime() - resume;
 		judge = 1;
-		timerId = setInterval( tick, 10 );
+		timerId = setInterval( tick, 1 );
 	} else {
 		pass
 	}
