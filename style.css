@@ -24,26 +24,29 @@ button{
 	height: 60px;
 	background-color: #1da1f2;
 	color: rgb(251, 249, 249);
-	margin-top: 20px;
-	margin-left:30px;
+	margin-bottom: 20px;
+	/* margin-left:30px; */
 	font-size: 25px;
 	border-radius: 10px;
 	box-shadow: 0;
 	cursor: pointer;
  }
-.btn{
+/* .btn{
 	float:left;
-}
+} */
  body{
 	color: rgb(83, 83, 83);
  }
  .btnbox{
-	display: block;
+	/* display: inline-block; */
+	text-align: center;
+	/* float: left; */
  }
  .time{
 	font-size: 850%;
 	text-align: center;
 	display: block;
+	line-height: 0.4;
  }
  /* .contents{
 	width:100%
@@ -60,14 +63,15 @@ button{
 		/* width: 50%; */
 		/* padding:5%; */
 	 /* } */
-	 .btn{
+	 /* .btn{ */
 		/* width:20%; */
-		padding-left:10px;
-		padding-right: 10px;
+		/* margin-left:10px;
+		margin-right: 10px; */
 		/* float:left; */
-	 }
+	 /* } */
 	 button{
-		width:100%;
+		width:70%;
+		text-align: center;
 	 }
 
 }
