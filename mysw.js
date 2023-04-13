@@ -30,10 +30,10 @@ let timerId;
 
 
 let judge = 0;
-timer.textContent ="00:00:00.00"
+timer.textContent ="00:00:00"
 function tick() {
 	now = new Date().getTime() - startTime
-	timer.textContent = numtohour( now ) + ':' + numtominute( now ) + ':' + numtosecond( now ) + '.' + numtocenti( now );
+	timer.textContent = numtohour( now ) + ':' + numtominute( now ) + ':' + numtosecond( now );
 }
 function start() {
 	if ( judge == 0 ) {
